@@ -1,0 +1,23 @@
+{
+  "name": "microit/laravel-admin-retail-telecoms",
+  "description": "Admin retail telecoms",
+  "license": "proprietary",
+  "type": "package",
+  "homepage": "http://www.micro-it.nl",
+  "authors": [
+    {
+      "name": "Jeroen el Hahaoui",
+      "email": "j.el.hahaoui@micro-it.nl",
+      "homepage": "http://www.micro-it.nl",
+      "role": "Developer"
+    }
+  ],
+  "require" : {
+    "sinergi/browser-detector": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Microit\\LaravelAdminRetailTelecoms\\": "src/"
+    }
+  }
+}

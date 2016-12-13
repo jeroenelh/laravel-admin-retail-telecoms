@@ -1,0 +1,44 @@
+store:
+  display_name: Winkel
+  icon: fa-home
+  children:
+    accessory:
+      display_name: Accessoires
+      route: admin.telecoms.accessory.index
+    devices:
+      display_name: Apparaten
+      route: admin.telecoms.device.index
+    brands:
+      display_name: Merken
+      route: admin.telecoms.brand.index
+storeconfig:
+  display_name: Winkel configuratie
+  icon: fa-cogs
+  children:
+    users:
+      display_name: Gebruikers
+      route: admin.telecoms.storeuser.index
+    accessory_category:
+      display_name: Accessoire categorieën
+      route: admin.telecoms.accessory_category.index
+    repair_category:
+      display_name: Reparatie categorieën
+      route: admin.telecoms.repair_category.index
+    price:
+      display_name: Prijs configuratie
+      route: admin.telecoms.price_configuration
+    kiosks:
+      display_name: Kiosk
+      route: admin.telecoms.kiosk.index
+headsystem:
+  display_name: Hoofdsysteem
+  icon: fa-cog
+  children:
+    users:
+      display_name: Hoofdgebruikers
+      route: admin.telecoms.headuser.index
+      permission: headuser.index
+    stores:
+      display_name: Winkels
+      route: admin.telecoms.store.index
+      permission: store.index
